@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    </head>
+    <body>
+        <header>
+            <img id="profile" src="Me.jpg" alt="A pitcure of me">
+            <h1>PANAGIOTIS GIANNOU</h1>
+            <h3>Web/Software Developer</h3>
+            <nav>
+                <ul>
+                    <li><a id="button" href="#aboutme">About me</a></li>
+                    <li><a id="button" href="#projects">Projects</a></li>
+                    <li><a id="button" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2 class="category" id="aboutme">About me</h2>
+                    <p>Welcome to my website!<br>
+                    My name is Panagiotis Giannou and I am currently studying 
+                    Software Development<br> with a focus on Multimedia and Web Design at 
+                    SAEK ALFA Thessaloniki.<br> I have experience with HTML, CSS, Python, C# and 
+                    throughout my studies I have worked on various projects,<br> including two games 
+                    developed with Pygame and several other projects in C# which are available 
+                    on my Itch.io and GitHub.<br> In addition to my studies,<br> I have a strong 
+                    interest in Game Development and I enjoy creating games as a hobby.
+                    </p>
+            </section>
+            <br>
+
+            <section>
+                <h2 class="category" id="projects">Projects</h2>
+                    <p>
+                        Here are a few of the projects I have developed during my 
+                        studies and personal learning. They showcase my skills in 
+                        web development, programming, and game design.
+                    </p>
+
+                <div class="project-cards">
+                    <div class="card">
+                        <h3>Turn-Based RPG (C#)</h3>
+                        <p>A simple RPG project demonstrating object-oriented programming and battle mechanics.</p>
+                        <a href="https://github.com/PanagiotisGia-prog/Turn-Based-RPG" target="_blank">View source code on GitHub</a>
+                    </div>
+                    <div class="card">
+                        <h3>Rock-Paper-Scissors-Lizard-Spock (Python)</h3>
+                        <p>A fun twist on the classic game (inspired by the tv show "The Big Bang Theory"), showcasing conditional logic and rule handling.</p>
+                        <a href="https://github.com/PanagiotisGia-prog/Rock-Paper-Scissors" target="_blank">View source code on Github</a>
+                    </div>
+                    <div class="card">
+                        <h3>Restaurant Website (HTML)</h3>
+                        <p>A clean mock-up of a restaurant site, highlighting responsive design skills.</p>
+                        <a href="https://github.com/PanagiotisGia-prog/Restaurant_Website-mock-up-" target="_blank">View source code on GitHub</a>
+                    </div>
+                </div>
+            </section>
+            <br>
+        </main>
+        <br>
+        <footer>
+                <h2 class="category" id="contact">Contact Me</h2>
+                <p>If you would like to contact me, feel free to reach out through my social media, my email or filling the form below and I am gonna get in touch with you.</p>
+                <form>
+                    <label for="name">Your full name<br><input type="text" id="name"></label>
+                    <br><br>
+                    <label for="email">Your Email<br><input type="text" id="email"></label>
+                    <br><br>
+                    <h4>Additional information</h4>
+                    <textarea id="info" rows="7" cols="42" maxlength="250" placeholder="your comments here..."></textarea>
+                    <br><br>
+                    <input type="submit" value="send">
+                </form>
+                <br>
+                <h4>You can also find me here:</h4>
+                <a href="https://www.linkedin.com/in/panagiotis-giannou-067478218/" target="_blank">
+                    <i class="fab fa-linkedin">Linkedin</i>
+                </a>
+                <a href="https://www.instagram.com/giannoupanos/" target="_blank">
+                    <i class="fab fa-instagram">Instagram</i>
+                </a>
+            <p>Website was created by: Panagiotis Giannou</p>
+        </footer>
+    </body>
+</html>
